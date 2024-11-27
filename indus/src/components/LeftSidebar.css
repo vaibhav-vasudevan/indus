@@ -1,0 +1,53 @@
+.left-sidebar {
+    width: 260px;
+    height: 100%;
+    background: #1a1f36;
+    padding: 24px 16px;
+    display: flex;
+    flex-direction: column;
+    flex-shrink: 0;
+    gap: 16px;
+  }
+  
+  .brand {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 12px;
+    margin-bottom: 20px;
+  }
+  
+  .brand-icon {
+    width: 32px;
+    height: 32px;
+    background: #2d3558;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+  }
+  
+  .brand-name {
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 1.2rem;
+    letter-spacing: 0.5px;
+  }
+  
+  .nav-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px;
+    color: #a0aec0;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .nav-item:hover,
+  .nav-item.active {
+    background: #2d3558;
+    color: #ffffff;
+  }

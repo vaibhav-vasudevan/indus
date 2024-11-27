@@ -1,0 +1,38 @@
+.right-sidebar {
+    width: 300px;
+    background: #1a1f36;
+    padding: 24px;
+  }
+  
+  .section-title {
+    font-size: 0.9rem;
+    color: #a0aec0;
+    margin-bottom: 20px;
+    letter-spacing: 0.5px;
+  }
+  
+  .task-item {
+    padding: 16px;
+    background: #2d3558;
+    border-radius: 12px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-bottom: 12px;
+  }
+  
+  .task-item:hover {
+    transform: translateY(-2px);
+    background: #363f66;
+  }
+  
+  .task-title {
+    font-size: 1rem;
+    color: #ffffff;
+    margin-bottom: 6px;
+  }
+  
+  .task-description {
+    font-size: 0.9rem;
+    color: #a0aec0;
+    line-height: 1.4;
+  }

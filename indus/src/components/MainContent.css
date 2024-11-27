@@ -1,0 +1,124 @@
+.main-content {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background: #ffffff;
+  }
+  
+  .main-header {
+    padding: 20px 32px;
+    border-bottom: 1px solid #e2e8f0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .header-title {
+    font-size: 1.1rem;
+    color: #1a1f36;
+    font-weight: 500;
+  }
+  
+  .header-button {
+    padding: 8px 16px;
+    border: 1px solid #e2e8f0;
+    border-radius: 6px;
+    background: #ffffff;
+    color: #1a1f36;
+    cursor: pointer;
+    transition: all 0.2s ease;
+    margin-left: 8px;
+  }
+  
+  .header-button:hover {
+    background: #f8f9fa;
+    border-color: #cbd5e0;
+  }
+  
+  .chat-area {
+    flex: 1;
+    padding: 32px;
+    overflow-y: auto;
+    background: #ffffff;
+  }
+  
+  .message {
+    max-width: 85%;
+    margin-bottom: 24px;
+    display: flex;
+    flex-direction: column;
+    opacity: 0;
+    transform: translateY(20px);
+    animation: fadeIn 0.3s ease forwards;
+  }
+  
+  .message-content {
+    padding: 16px 20px;
+    border-radius: 12px;
+    font-size: 1rem;
+    line-height: 1.6;
+    background: #f8f9fa;
+    color: #1a1f36;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.05);
+  }
+  
+  .user-message .message-content {
+    background: #2d3558;
+    color: #ffffff;
+  }
+  
+  .input-area {
+    padding: 24px 32px;
+    background: #ffffff;
+    border-top: 1px solid #e2e8f0;
+  }
+  
+  .input-container {
+    display: flex;
+    gap: 12px;
+    background: #f8f9fa;
+    padding: 12px;
+    border-radius: 12px;
+    border: 1px solid #e2e8f0;
+    transition: all 0.2s ease;
+  }
+  
+  .input-container:focus-within {
+    border-color: #2d3558;
+    box-shadow: 0 0 0 2px rgba(45, 53, 88, 0.1);
+  }
+  
+  .message-input {
+    flex: 1;
+    border: none;
+    background: transparent;
+    padding: 8px;
+    font-size: 1rem;
+    outline: none;
+    color: #1a1f36;
+  }
+  
+  .message-input::placeholder {
+    color: #a0aec0;
+  }
+  
+  .send-button {
+    padding: 8px 20px;
+    background: #2d3558;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+  }
+  
+  .send-button:hover {
+    background: #1a1f36;
+  }
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
