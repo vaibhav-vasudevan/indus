@@ -7,7 +7,7 @@ from tooldef import tools
 import json
 import cohere
 
-co = cohere.ClientV2(api_key="lZpVs6UyeDTGIjKqtud9Fi778WX4BMuyDzyBPbZ0")
+co = cohere.ClientV2(api_key="")
 
 # Mock Databases
 customers = customer_database
